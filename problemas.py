@@ -32,4 +32,4 @@ def getWrongAnswers(N: int, C: str) -> str:
       res = res + i
   return res
 
-#0(n)
+#O(n)
