@@ -9,10 +9,14 @@ def getHitProbability(R: int, C: int, G: List[List[int]]) -> float:
           b += 1
   return b/(a+b)
 
+#O(n)
+
 
 def getSum(A: int, B: int, C: int) -> int:
   # Write your code here
   return A+B+C
+
+#O(n)
 
 def getWrongAnswers(N: int, C: str) -> str:
   strings = []
@@ -27,3 +31,5 @@ def getWrongAnswers(N: int, C: str) -> str:
   for i in strings:
       res = res + i
   return res
+
+#0(n)
